@@ -1,0 +1,44 @@
+
+.UserCard {
+    border: 1px solid #eee;
+    border-radius: 16px;
+    width: 60%;
+    margin: auto;
+    margin-top: 16px;
+    box-shadow: 4px 6px 16px #eee;
+    
+}
+
+.UserCard .Top,
+.UserCard .Bottom {
+    padding: 10px 16px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserCard .Bottom {
+    border-top: 1px solid #ccc;
+}
+
+.UserCard .Bottom .Span span {
+    font-size: 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.UserCard .Bottom .Span span:last-of-type {
+    color: red;
+}
+
+.EditForm {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: var(--secondaryColor);
+}
+
+.ShowEditForm {
+    opacity: 1;
+    height: 110px;
+}

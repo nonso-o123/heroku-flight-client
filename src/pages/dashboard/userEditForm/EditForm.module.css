@@ -1,0 +1,22 @@
+
+.FormContainer {
+    margin: auto;
+    /* height: 0; */
+    overflow: hidden;
+}
+
+.FormGroup {
+    padding: 5px;
+}
+
+.FormGroup input:not([type="checkbox"]) {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+.FormGroup label {
+    font-size: 12px;
+}
