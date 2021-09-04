@@ -1,1 +1,1 @@
-export const baseUrl = 'https://git.heroku.com/heroku-flight-server.git' || 'http://localhost:5000/'
+export const baseUrl = 'https://heroku-flight-server.herokuapp.com/' || 'http://localhost:5000/'
